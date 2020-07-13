@@ -2,23 +2,33 @@
 
 A CLI for rr-gen.
 
-## Customizing your CLI
+### Install Globally
 
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
+`npm install -g rr-gen`
 
-## Publishing to NPM
+### How to run
 
-To package your CLI up for NPM, do this:
+`rr-gen cc MyNewComponent`
 
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
-```
+# NEED HELP FOR REACT-NATIVE
 
-# License
+- [ ] Create Module
+- [ ] Create Routes
+- [ ] Create Components inside Modules
+- [ ] Create Screens inside Modules
+- [ ] Create Services
 
-MIT - see LICENSE
+# NEED HELP FOR REACT-WEB
+
+- [ ] Create Componente (index, storybook, test, styles)
+- [ ] Create Module (screens, componentes)
+- [ ] Create Components inside Modules
+- [ ] Create Screens inside Modules
+- [ ] Create Routes
+- [ ] Create Services
+
+# NEED HELP FOR XSTATE-CORE
+
+- [ ] Create MACHINE
+- [ ] Create SERVICE
+- [ ] Create TYPES
