@@ -1,0 +1,12 @@
+import React from 'react';
+import { withKnobs } from '@storybook/addon-knobs';
+import { <%= props.name %>, <%= props.name %>Props } from '../<%= props.name %>';
+
+const options: <%= props.name %>Props = {};
+
+export default {
+  title: 'Componentes | <%= props.name %>',
+  decorators: [withKnobs],
+};
+
+export const withSimpleMode = () => <<%= props.name %> {...options} />;

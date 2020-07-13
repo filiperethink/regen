@@ -1,0 +1,17 @@
+import React, { Fragment } from 'react';
+import { Text } from 'react-native';
+
+import { styles } from './styles';
+
+export interface <%= props.name %>Props {}
+
+export const <%= props.name %>Ids = {};
+
+const <%= props.name %>: React.FC<<%= props.name %>Props> = () => {
+  return (
+    <Fragment>
+      <Text style={styles.container} />
+    </Fragment>
+  );
+};
+export default <%= props.name %>;

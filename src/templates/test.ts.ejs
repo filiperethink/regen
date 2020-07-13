@@ -1,0 +1,18 @@
+import 'react-native';
+import React from 'react';
+
+import { render } from '_utils';
+
+import { <%= props.name %>, <%= props.name %>Props, <%= props.name %>Ids } from '../<%= props.name %>';
+
+describe('<%= props.name %>', () => {
+  let defaultProps: <%= props.name %>Props;
+  beforeAll(() => {
+    defaultProps = {};
+  });
+
+  it('should teste something', () => {
+    const { getByTestId } = render(<<%= props.name %> {...defaultProps} />);
+    expect(getByTestId(<%= props.name %>Ids)).toBeDefined();
+  });
+});
