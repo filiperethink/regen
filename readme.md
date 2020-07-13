@@ -1,6 +1,6 @@
-# regen CLI
+# rr-gen CLI
 
-A CLI for regen.
+A CLI for rr-gen.
 
 ## Customizing your CLI
 
@@ -22,4 +22,3 @@ $ npm publish
 # License
 
 MIT - see LICENSE
-

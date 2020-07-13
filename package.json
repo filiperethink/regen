@@ -1,11 +1,11 @@
 {
-  "name": "regen",
+  "name": "rr-gen",
   "version": "0.0.1",
-  "description": "regen CLI",
-  "private": true,
+  "description": "rr-gen CLI",
+  "private": false,
   "types": "build/types/types.d.ts",
   "bin": {
-    "regen": "bin/regen"
+    "rr-gen": "bin/rr-gen"
   },
   "scripts": {
     "format": "prettier --write **/*.{js,ts,tsx,json}",
