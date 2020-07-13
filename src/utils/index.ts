@@ -1,7 +1,7 @@
-export const handleStrings = (fn, string) => {
-  const toUpper = fn.upperCase(string);
-  const trim = fn.trim(toUpper);
-  const pascal = fn.pascalCase(trim);
-  const text = fn.upperFirst(pascal);
+export const handleStrings = (stringFunc, str) => {
+  const toUpper = stringFunc.upperCase(str);
+  const trim = stringFunc.trim(toUpper);
+  const pascal = stringFunc.pascalCase(trim);
+  const text = stringFunc.upperFirst(pascal);
   return text;
 };

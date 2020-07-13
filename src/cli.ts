@@ -1,4 +1,4 @@
-const { build } = require('gluegun')
+const { build } = require('gluegun');
 
 async function run(argv: any) {
   // create a CLI runtime
@@ -8,11 +8,11 @@ async function run(argv: any) {
     .plugins('./node_modules', { matching: 'regen-*', hidden: true })
     .help() // provides default for help, h, --help, -h
     .version() // provides default for version, v, --version, -v
-    .create()
+    .create();
 
-  const toolbox = await cli.run(argv)
+  const toolbox = await cli.run(argv);
 
-  return toolbox
+  return toolbox;
 }
 
-module.exports = { run }
+module.exports = { run };

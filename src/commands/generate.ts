@@ -54,6 +54,6 @@ module.exports = {
       props: { name },
     });
 
-    info(`Arquivo index gerado com sucesso.`);
+    info(`Componente ${name} gerado com sucesso.`);
   },
 };
