@@ -54,6 +54,6 @@ module.exports = {
       props: { name },
     });
 
-    info(`Estrutura do Componente ${name} gerado com sucesso.`);
+    info(`Componente ${name} gerado com sucesso.`);
   },
 };
