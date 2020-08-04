@@ -18,14 +18,6 @@ A CLI for rr-gen.
 - [ ] Create Screens inside Modules
 - [ ] Create Services
 
-# NEED HELP FOR REACT-WEB
-
-- [ ] Create Componente (index, storybook, test, styles)
-- [ ] Create Module (screens, componentes)
-- [ ] Create Components inside Modules
-- [ ] Create Screens inside Modules
-- [ ] Create Routes
-- [ ] Create Services
 
 # NEED HELP FOR XSTATE-CORE
 
