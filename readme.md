@@ -1,4 +1,4 @@
-# rr-gen CLI
+# rr-gen
 
 A CLI for rr-gen.
 
@@ -17,7 +17,6 @@ A CLI for rr-gen.
 - [ ] Create Components inside Modules
 - [ ] Create Screens inside Modules
 - [ ] Create Services
-
 
 # NEED HELP FOR XSTATE-CORE
 
